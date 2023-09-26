@@ -1,5 +1,8 @@
 package com.example.model;
 
+/**
+ * Modelo de una Clase con sus atributos
+ */
 public class Clase {
     private int codigoCurso;
     private String nombre;

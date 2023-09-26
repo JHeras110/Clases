@@ -1,13 +1,18 @@
 package com.example.services;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
 import com.example.model.Clase;
 
+/**
+ * Clase donde se utiliza la interfazz ClasesServices y realiza las operaciones logicas de sus metodos
+ * 
+ * @see com.example.model.Clase;
+ * @see com.example.services.ClasesService;
+ */
 @Service
 public class ClasesServiceImpl implements ClasesService{
 

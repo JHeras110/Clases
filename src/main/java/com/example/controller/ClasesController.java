@@ -15,6 +15,12 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.model.Clase;
 import com.example.services.ClasesService;
 
+/**
+ * Controlador que utilizamos para manejar las peticiones del usuario con diferentes metodos
+ * 
+ * @see com.example.model.Clase;
+ * @see com.example.services.ClasesService;
+ */
 @RestController
 public class ClasesController {
     
